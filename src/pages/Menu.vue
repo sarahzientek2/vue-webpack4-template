@@ -1,61 +1,25 @@
 <template>
-  <div class="full-width center-content">
-    <div id="app">
-      <div class="container">
-        <div class="row">
-          <div class="col-4" v-for="item in menu">
-            <div class="card">
-              <img v-bind:src="item.img" class="card-img-top" v-bind:alt="item.description">
-              <div class="card-body">
-                <h5 class="card-title">{{item.name}}</h5>
-                <p class="card-text">{{item.description}}</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary" data-toggle="modal" v-bind:data-target="'#modal-' + item.id">
-                  Click to see a picture of {{item.name}}
-                </button>
-                <!-- Modal -->
-                <div class="modal fade" v-bind:id="'modal-' + item.id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">{{item.name}}</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        <img v-bind:src="item.img" class="card-img-top" v-bind:alt="item.description">
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+  <ul>
+    <li v-for="item in menu">
+      {{ item.name }}
+    </li>
+  </ul>
 </template>
 
-
-<script src="https://unpkg.com/vue"></script> <script>
-
-const app = new Vue({
-  el: '#app',
-  data: {
-    menu: []
+<script>
+export default {
+  data: function () {
+    return {
+      menu: []
+    }
   },
-  created: function() {
+  created: function () {
     fetch('https://api.myjson.com/bins/17yynu')
       .then(response => response.json())
       .then(json => {
         this.menu = json.items
       })
   }
-})
-</script>
+}
 
+</script>
