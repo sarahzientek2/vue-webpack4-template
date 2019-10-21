@@ -3,8 +3,8 @@
     <b-container class="bv-example-row">
       <b-row>
         <b-col
-          cols="8"
-          offset="2">
+          cols="12"
+          offset="0">
           <div>
             <b-navbar
               toggleable="lg"
