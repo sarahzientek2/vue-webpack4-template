@@ -20,12 +20,9 @@
                     <b-link to="/contact"  router-tag="b-nav-item">CONTACT</b-link>
 
                 </b-navbar-nav>
-
                 </b-collapse>
             </b-navbar>
             </div>
-
-
         </b-col>
       </b-row>
       <b-row>

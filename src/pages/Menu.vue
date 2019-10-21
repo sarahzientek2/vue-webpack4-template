@@ -1,8 +1,5 @@
 <template>
   <div class="full-width center-content">
-    <p> Menu Page-under construction</p>
-  </div>
-
     <div id="app">
       <div class="container">
         <div class="row">
@@ -12,12 +9,10 @@
               <div class="card-body">
                 <h5 class="card-title">{{item.name}}</h5>
                 <p class="card-text">{{item.description}}</p>
-
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary" data-toggle="modal" v-bind:data-target="'#modal-' + item.id">
                   Click to see a picture of {{item.name}}
                 </button>
-
                 <!-- Modal -->
                 <div class="modal fade" v-bind:id="'modal-' + item.id" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog" role="document">
@@ -43,7 +38,7 @@
         </div>
       </div>
     </div>
-
+  </div>
 </template>
 
 
@@ -63,3 +58,4 @@ const app = new Vue({
   }
 })
 </script>
+
