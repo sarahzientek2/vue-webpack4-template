@@ -4,7 +4,8 @@
       <b-row>
         <b-col
           cols="12"
-          offset="0">
+          offset="0"
+        >
           <div>
             <b-navbar
               toggleable="lg"

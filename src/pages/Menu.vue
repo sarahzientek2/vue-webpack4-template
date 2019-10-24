@@ -1,6 +1,6 @@
 <template>
   <ul>
-    <li v-for="item in menu">
+    <li v-for="product in menu" v-bind:key="item">
       {{ item.name }}
     </li>
   </ul>
