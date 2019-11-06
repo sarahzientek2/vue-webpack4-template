@@ -7,13 +7,10 @@
           offset="0"
         >
           <div>
-            <b-navbar
-              toggleable="lg"
-              type="dark"
-              variant="info"
-            >
-              <b-navbar-brand href="#">
-                WATER BAR
+             <b-navbar variant="faded" type="light">
+                <b-navbar-brand href="#">
+                <img src="https://lh3.googleusercontent.com/AuLBHHc0ePWAFPQiMg_HETdPIIzBFp7HDXbb2mABbJvo_yqCu4URywVhm-4tKvbqhtQB5C8gUYj2K7-7AACgS-RONLFtqrvLoKQVhzS2UC01B9JnlreJ-_wOWU6A7tOxrJBLNGw0KC4=w2400" height="42" width="42" class="d-inline-block align-top" alt="Chance">
+                CHANCE ZIENTEK
               </b-navbar-brand>
 
               <b-navbar-toggle target="nav-collapse" />
@@ -23,30 +20,42 @@
                 is-nav
               >
                 <b-navbar-nav>
-                  <b-link
+                    <b-link
                     to="/"
-                    router-tag="b-nav-item"
-                  >
+                    router-tag="b-nav-item">
                     HOME
-                  </b-link>
-                  <b-link
+                    </b-link>
+
+                    <b-link
                     to="/about"
-                    router-tag="b-nav-item"
-                  >
+                    router-tag="b-nav-item">
                     ABOUT
-                  </b-link>
-                  <b-link
-                    to="/menu"
-                    router-tag="b-nav-item"
-                  >
-                    MENU
-                  </b-link>
-                  <b-link
+                    </b-link>
+
+                    <b-link
+                    to="/otherpg"
+                    router-tag="b-nav-item">
+                    PAGE1
+                    </b-link>
+
+                    <b-link
+                    to="/otherpg2"
+                    router-tag="b-nav-item">
+                    PAGE2
+                    </b-link>
+
+                    <b-link
+                    to="/otherpg3"
+                    router-tag="b-nav-item">
+                    PAGE3
+                    </b-link>
+
+                    <b-link
                     to="/contact"
-                    router-tag="b-nav-item"
-                  >
+                    router-tag="b-nav-item">
                     CONTACT
-                  </b-link>
+                    </b-link>
+
                 </b-navbar-nav>
               </b-collapse>
             </b-navbar>
