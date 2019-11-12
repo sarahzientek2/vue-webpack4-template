@@ -44,18 +44,6 @@
                     PAGE2
                     </b-link>
 
-                    <b-link
-                    to="/otherpg3"
-                    router-tag="b-nav-item">
-                    PAGE3
-                    </b-link>
-
-                    <b-link
-                    to="/contact"
-                    router-tag="b-nav-item">
-                    CONTACT
-                    </b-link>
-
                 </b-navbar-nav>
               </b-collapse>
             </b-navbar>
