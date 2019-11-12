@@ -6,7 +6,7 @@ import About from 'pages/About'
 import LoginPage from 'pages/LoginPage'
 import Contact from 'pages/Contact'
 import otherpg from 'pages/otherpg'
-import otherpg2 from 'pages/otherpg2'
+import photocollection from 'pages/photocollection'
 
 Vue.use(Router)
 
@@ -32,8 +32,8 @@ const routes = [
     component: otherpg
   },
   {
-    path: '/otherpg2',
-    component: otherpg2
+    path: '/photocollection',
+    component: photocollection
   }
 ]
 

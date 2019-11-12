@@ -51,10 +51,10 @@
                   </b-link>
 
                   <b-link
-                    to="/otherpg2"
+                    to="/photocollection"
                     router-tag="b-nav-item"
                   >
-                    PAGE2
+                    PHOTO COLLECTION
                   </b-link>
 
                   <b-link

@@ -1,20 +1,29 @@
 <template>
+  <form
+    action="https://formspree.io/mdoozzeq"
+    method="POST"
+  >
+    <div class="info">
+      <label><span> your name </span>
+        <input
+          type="text"
+          name="name"
+        ></label>
 
-<form action="https://formspree.io/mdoozzeq" method="POST">
+      <label><span> your email </span>
+        <input
+          type="email"
+          name="_replyto"
+        ></label>
+    </div>
 
-<div class= "info">
-  <label><span> your name </span>
-  <input type="text" name="name"></label>
-  
-  <label><span> your email </span>
-  <input type="email" name="_replyto"></label>
-  
-  </div>
+    <label><span> your message </span>
+      <textarea name="message" /></label>
 
-  <label><span> your message </span>
-  <textarea name="message"> </textarea></label>
-  
-  <input type="submit" value="Send">
+    <input
+      type="submit"
+      value="Send"
+    >
   </form>
 </template>
 
