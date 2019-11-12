@@ -3,10 +3,10 @@ import Router from 'vue-router'
 
 import Home from 'pages/Home'
 import About from 'pages/About'
+import LoginPage from 'pages/LoginPage'
 import Contact from 'pages/Contact'
 import otherpg from 'pages/otherpg'
 import otherpg2 from 'pages/otherpg2'
-import otherpg3 from 'pages/otherpg3'
 
 Vue.use(Router)
 
@@ -20,6 +20,10 @@ const routes = [
     component: About
   },
   {
+    path: '/loginpage',
+    component: LoginPage
+  },
+  {
     path: '/contact',
     component: Contact
   },
@@ -30,10 +34,6 @@ const routes = [
   {
     path: '/otherpg2',
     component: otherpg2
-  },
-  {
-    path: '/otherpg3',
-    component: otherpg3
   }
 ]
 

@@ -1,52 +1,51 @@
 <template>
-  <div class="full-width center-content">
-    <b-form @submit="onSubmit">
-      <b-form-group
-        id="input-group-email"
-        label="Email:"
-        label-for="input-email"
-      >
-        <b-form-input
-          id="input-email"
-          v-model="form.email"
-          required
-        />
-      </b-form-group>
-      <b-form-group
-        id="input-group-password"
-        label="Password:"
-        label-for="input-password"
-      >
-        <b-input
-          id="input-password"
-          v-model="form.password"
-          type="password"
-        />
-      </b-form-group>
-      <b-button
-        type="submit"
-        variant="primary"
-      >
-        Log in
-      </b-button>
-    </b-form>
+
+<form action="https://formspree.io/mdoozzeq" method="POST">
+
+<div class= "info">
+  <label><span> your name </span>
+  <input type="text" name="name"></label>
+  
+  <label><span> your email </span>
+  <input type="email" name="_replyto"></label>
+  
   </div>
+
+  <label><span> your message </span>
+  <textarea name="message"> </textarea></label>
+  
+  <input type="submit" value="Send">
+  </form>
 </template>
 
 <script>
-export default {
-  data: function () {
-    return {
-      form: {
-        email: '',
-        password: ''
-      }
-    }
-  },
-  methods: {
-    onSubmit () {
-      this.$router.push('/home')
-    }
-  }
-}
 </script>
+
+<style>
+form {
+    max-width: 450px;
+    margin: 0 auto 50px;
+}
+label {
+    display: block;
+    margin-bottom: 20px;
+}
+
+span {
+    display: block;
+}
+
+.info {
+    label {
+        width: 48%;
+        padding-right: 10px;
+        float: left;
+    }
+}
+
+input, textarea {
+    border: 3px solid;
+    width: 100%;
+}
+
+</style>

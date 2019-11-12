@@ -63,7 +63,6 @@
                   >
                     CONTACT
                   </b-link>
-                  
                 </b-navbar-nav>
               </b-collapse>
             </b-navbar>
