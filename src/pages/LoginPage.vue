@@ -18,4 +18,7 @@
 </template>
 
 <script>
+// read jSON
+// convert into java script obj
+//search js obj for password and email 
 </script>
