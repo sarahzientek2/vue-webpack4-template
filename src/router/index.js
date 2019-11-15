@@ -28,7 +28,7 @@ const routes = [
     component: Contact
   },
   {
-    path: '/ospecialtalents',
+    path: '/specialtalents',
     component: specialtalents
   },
   {
