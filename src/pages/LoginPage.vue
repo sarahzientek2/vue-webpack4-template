@@ -20,5 +20,5 @@
 <script>
 // read jSON
 // convert into java script obj
-//search js obj for password and email 
+// search js obj for password and email
 </script>

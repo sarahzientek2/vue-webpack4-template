@@ -44,10 +44,10 @@
                   </b-link>
 
                   <b-link
-                    to="/otherpg"
+                    to="/specialtalents"
                     router-tag="b-nav-item"
                   >
-                    PAGE1
+                    SPECIAL TALENTS
                   </b-link>
 
                   <b-link

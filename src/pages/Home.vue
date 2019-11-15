@@ -1,20 +1,19 @@
 <template>
   <div class="container-fluid">
-  <div>
-  <b-card
-    overlay
-    img-src="https://lh3.googleusercontent.com/-u2vZj5m2G8Q-IJQfp-Qcn6OPlAiNfE9PiAjwogP-nVLR1pBN0X3DyuSQMvZeD0A-hqwzMQ7O_Kcn-_FZfvvQW9sZjb3ZwYgV4tSXB11fC_8QZjK_prgbv2eOtQM8A7d9s83sDsHPNE=w2400"
-    img-alt="Card Image"
-    text-variant="black"
-    title="WELCOME TO THE OFFICIAL WEBSITE OF CHANCE ZIENTEK"
-  >
-    <b-card-text>
-    THE WORLD'S GREATEST DOG    
-    </b-card-text>
+    <div>
+      <b-card
+        overlay
+        img-src="https://lh3.googleusercontent.com/-u2vZj5m2G8Q-IJQfp-Qcn6OPlAiNfE9PiAjwogP-nVLR1pBN0X3DyuSQMvZeD0A-hqwzMQ7O_Kcn-_FZfvvQW9sZjb3ZwYgV4tSXB11fC_8QZjK_prgbv2eOtQM8A7d9s83sDsHPNE=w2400"
+        img-alt="Card Image"
+        text-variant="black"
+        title="WELCOME TO THE OFFICIAL WEBSITE OF CHANCE ZIENTEK"
+      >
+        <b-card-text>
+          THE WORLD'S GREATEST DOG
+        </b-card-text>
+      </b-card>
+    </div>
 
-  </b-card>
-</div>
-  
     <form>
       <div class="form-group">
         <label for="exampleInputEmail1">Email address</label>

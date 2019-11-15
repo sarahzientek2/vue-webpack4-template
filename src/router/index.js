@@ -5,7 +5,7 @@ import Home from 'pages/Home'
 import About from 'pages/About'
 import LoginPage from 'pages/LoginPage'
 import Contact from 'pages/Contact'
-import otherpg from 'pages/otherpg'
+import specialtalents from 'pages/specialtalents'
 import photocollection from 'pages/photocollection'
 
 Vue.use(Router)
@@ -28,8 +28,8 @@ const routes = [
     component: Contact
   },
   {
-    path: '/otherpg',
-    component: otherpg
+    path: '/ospecialtalents',
+    component: specialtalents
   },
   {
     path: '/photocollection',
