@@ -8,7 +8,7 @@
         img-top
       >
         <b-card-text>
-          A photo from Chance and Cooper's bithday party. They had their friends come and celebrate in Zilker Park. Lots of hats and dog treats. 
+          A photo from Chance and Cooper's bithday party. They had their friends come and celebrate in Zilker Park. Lots of hats and dog treats.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -20,7 +20,7 @@
         img-top
       >
         <b-card-text>
-          Chance celebrating the spring time by taking a walk through the bluebonnet flowers that had just bloomed. 
+          Chance celebrating the spring time by taking a walk through the bluebonnet flowers that had just bloomed.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -32,7 +32,7 @@
         img-top
       >
         <b-card-text>
-          Chance celebrating the win of one of his favorite sports teams- The Chicago Cubs. They had just won the world series. 
+          Chance celebrating the win of one of his favorite sports teams- The Chicago Cubs. They had just won the world series.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -46,7 +46,7 @@
         img-top
       >
         <b-card-text>
-          Chance had to wear the cone for a few days because he had scratches on his elbow. He hates the cone. But he still looks cute. 
+          Chance had to wear the cone for a few days because he had scratches on his elbow. He hates the cone. But he still looks cute.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -58,7 +58,7 @@
         img-top
       >
         <b-card-text>
-          Chance letting loose after he came home from a long day of work as the dog President of the United States (DPOTUS). 
+          Chance letting loose after he came home from a long day of work as the dog President of the United States (DPOTUS).
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -70,7 +70,7 @@
         img-top
       >
         <b-card-text>
-          Stinky dog gets a bath. Chance only likes warm water. 
+          Stinky dog gets a bath. Chance only likes warm water.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -96,7 +96,7 @@
         img-top
       >
         <b-card-text>
-          He isn't a big fan of showers... nor of his sister Kate grabbing his face. 
+          He isn't a big fan of showers... nor of his sister Kate grabbing his face.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -108,7 +108,7 @@
         img-top
       >
         <b-card-text>
-          Chance had a little photoshoot in the backyard. 
+          Chance had a little photoshoot in the backyard.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -122,7 +122,7 @@
         img-top
       >
         <b-card-text>
-          His parents wouldn't let him get a real tattoo so his French exchange sister gave him a temporary crown tattoo. 
+          His parents wouldn't let him get a real tattoo so his French exchange sister gave him a temporary crown tattoo.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -134,7 +134,7 @@
         img-top
       >
         <b-card-text>
-          Chance's sister let him eat pills so he had to go to the hospital. Fortunately he was fine... Unfortunatley he had to get his legs shaved. He was very embarassed. 
+          Chance's sister let him eat pills so he had to go to the hospital. Fortunately he was fine... Unfortunatley he had to get his legs shaved. He was very embarassed.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -160,7 +160,7 @@
         img-top
       >
         <b-card-text>
-          Such a talented dog. He sits nicely when asked to. 
+          Such a talented dog. He sits nicely when asked to.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -172,7 +172,7 @@
         img-top
       >
         <b-card-text>
-          Another one of his great talents. Chance loves high fiving people. 
+          Another one of his great talents. Chance loves high fiving people.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -184,7 +184,7 @@
         img-top
       >
         <b-card-text>
-          Chance learning to take his first selfie on his new phone. 
+          Chance learning to take his first selfie on his new phone.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -210,7 +210,7 @@
         img-top
       >
         <b-card-text>
-          On a nice walk downtown, Chance took a photo with the skyline and stuck out his tongue. What a silly dog. 
+          On a nice walk downtown, Chance took a photo with the skyline and stuck out his tongue. What a silly dog.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -222,7 +222,7 @@
         img-top
       >
         <b-card-text>
-          Chance is a little upset when his sisters wake him up. Other than walking, his favorite activity is sleeping. 
+          Chance is a little upset when his sisters wake him up. Other than walking, his favorite activity is sleeping.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -248,7 +248,7 @@
         img-top
       >
         <b-card-text>
-          Chance loves to go on picnics with his friends at Zilker Park. Too bad he ate all the human food and will not be having any more picnics. 
+          Chance loves to go on picnics with his friends at Zilker Park. Too bad he ate all the human food and will not be having any more picnics.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -260,7 +260,7 @@
         img-top
       >
         <b-card-text>
-          Just two besties. 
+          Just two besties.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -274,7 +274,7 @@
         img-top
       >
         <b-card-text>
-          Chance and Cooper loved celebrating their birthdays together... but they didnt like the hats much. 
+          Chance and Cooper loved celebrating their birthdays together... but they didnt like the hats much.
         </b-card-text>
         <template v-slot:footer />
       </b-card>
@@ -286,7 +286,7 @@
         img-top
       >
         <b-card-text>
-          Chance likes to stand in the water but he is still scared of swimming even in his old age. But treats can sometime get him in the water. 
+          Chance likes to stand in the water but he is still scared of swimming even in his old age. But treats can sometime get him in the water.
         </b-card-text>
         <template v-slot:footer />
       </b-card>

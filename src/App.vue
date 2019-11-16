@@ -47,7 +47,7 @@
                     to="/specialtalents"
                     router-tag="b-nav-item"
                   >
-                    SPECIAL TALENTS
+                    SKILLS
                   </b-link>
 
                   <b-link
@@ -55,6 +55,13 @@
                     router-tag="b-nav-item"
                   >
                     PHOTO COLLECTION
+                  </b-link>
+
+                  <b-link
+                    to="/dressin"
+                    router-tag="b-nav-item"
+                  >
+                    FASHION BLOG
                   </b-link>
 
                   <b-link

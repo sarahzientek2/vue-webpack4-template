@@ -77,7 +77,7 @@ export default {
       ]
       let email = this.form.email
       let password = this.form.password
-      sessionStorage.user = JSON.stringify(myjson.find(function (users) { return ((users.email === email) && (user.password === password)) }))
+      sessionStorage.users = JSON.stringify(myjson.find(function (users) { return ((users.email === email) && (users.password === password)) }))
       this.$router.push('/loginpage')
     }
   }

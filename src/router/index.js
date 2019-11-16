@@ -7,6 +7,7 @@ import LoginPage from 'pages/LoginPage'
 import Contact from 'pages/Contact'
 import specialtalents from 'pages/specialtalents'
 import photocollection from 'pages/photocollection'
+import dressin from 'pages/dressin'
 
 Vue.use(Router)
 
@@ -34,6 +35,10 @@ const routes = [
   {
     path: '/photocollection',
     component: photocollection
+  },
+  {
+    path: '/dressin',
+    component: dressin
   }
 ]
 

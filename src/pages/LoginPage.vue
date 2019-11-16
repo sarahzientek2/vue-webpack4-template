@@ -1,6 +1,5 @@
 <template>
   <div class="full-width center-content">
-
     <ul>
       <li
         v-if="users"
@@ -8,7 +7,6 @@
         {{ users.name }}
       </li>
     </ul>
-
   </div>
 </template>
 
