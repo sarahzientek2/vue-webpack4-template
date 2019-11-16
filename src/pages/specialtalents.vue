@@ -1,10 +1,29 @@
 <template>
   <div class="tablist">
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-1 variant="info">Accordion 1</b-button>
+    <b-card
+      no-body
+      class="mb-1"
+    >
+      <b-card-header
+        header-tag="header"
+        class="p-1"
+        role="tab"
+      >
+        <b-button
+          v-b-toggle.accordion-1
+          block
+          href="#"
+          variant="info"
+        >
+          Accordion 1
+        </b-button>
       </b-card-header>
-      <b-collapse id="accordion-1" visible accordion="my-accordion" role="tabpanel">
+      <b-collapse
+        id="accordion-1"
+        visible
+        accordion="my-accordion"
+        role="tabpanel"
+      >
         <b-card-body>
           <b-card-text>I start opened because <code>visible</code> is <code>true</code></b-card-text>
           <b-card-text>{{ text }}</b-card-text>
@@ -12,22 +31,58 @@
       </b-collapse>
     </b-card>
 
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-2 variant="info">Accordion 2</b-button>
+    <b-card
+      no-body
+      class="mb-1"
+    >
+      <b-card-header
+        header-tag="header"
+        class="p-1"
+        role="tab"
+      >
+        <b-button
+          v-b-toggle.accordion-2
+          block
+          href="#"
+          variant="info"
+        >
+          Accordion 2
+        </b-button>
       </b-card-header>
-      <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+      <b-collapse
+        id="accordion-2"
+        accordion="my-accordion"
+        role="tabpanel"
+      >
         <b-card-body>
           <b-card-text>{{ text }}</b-card-text>
         </b-card-body>
       </b-collapse>
     </b-card>
 
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-button block href="#" v-b-toggle.accordion-3 variant="info">Accordion 3</b-button>
+    <b-card
+      no-body
+      class="mb-1"
+    >
+      <b-card-header
+        header-tag="header"
+        class="p-1"
+        role="tab"
+      >
+        <b-button
+          v-b-toggle.accordion-3
+          block
+          href="#"
+          variant="info"
+        >
+          Accordion 3
+        </b-button>
       </b-card-header>
-      <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+      <b-collapse
+        id="accordion-3"
+        accordion="my-accordion"
+        role="tabpanel"
+      >
         <b-card-body>
           <b-card-text>{{ text }}</b-card-text>
         </b-card-body>
@@ -37,10 +92,10 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        text: `
+export default {
+  data () {
+    return {
+      text: `
           Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
           richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
           brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
@@ -50,9 +105,9 @@
           vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
           synth nesciunt you probably haven't heard of them accusamus labore VHS.
         `
-      }
     }
   }
+}
 </script>
 
 <style>

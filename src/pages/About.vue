@@ -1,25 +1,73 @@
 <template>
   <div class="container">
     <div>
-    <h1> Who is Chance?</h1>
+      <h1> Who is Chance?</h1>
     </div>
-    
+
     <div>
       <b-tabs class="tab">
         <b-tab
-          title="First"
+          title="About Chance"
           active
         >
-          <p>I'm the first tab</p>
+
+         <div>
+    <b-card-group deck>
+      <b-card bg-variant="primary" text-variant="white" header="Family" class="text-center">
+        <b-card-text>Chance was adopted by his two parents and three sisters at a very young age. Little is known about his birth family. </b-card-text>
+      </b-card>
+
+      <b-card bg-variant="secondary" text-variant="white" header="Age" class="text-center">
+        <b-card-text> Chance is 13 years old. </b-card-text>
+      </b-card>
+
+      <b-card bg-variant="success" text-variant="white" header="Ethnicity" class="text-center">
+        <b-card-text>Chance is a mutt... still guessing what mix of dog breeds he is. </b-card-text>
+      </b-card>
+    </b-card-group>
+  </div>
+  <div class="mt-3">
+    <b-card-group deck>
+      <b-card bg-variant="info" text-variant="white" header="Likes" class="text-center">
+        <b-card-text>Chance likes human food, belly scratches, sleeping, and walks</b-card-text>
+      </b-card>
+
+      <b-card bg-variant="warning" text-variant="white" header="Dislikes" class="text-center">
+        <b-card-text>Chance dislikes lemons, his cone, when his family comes home smelling like other dogs, no one paying attentionto him, the mailman</b-card-text>
+      </b-card>
+
+      <b-card bg-variant="danger" text-variant="white" header="Career" class="text-center">
+        <b-card-text>Chance was elected the Puppy President of the United States 8 years ago, and he continues to serve as the president to this day.</b-card-text>
+      </b-card>
+    </b-card-group>
+  </div>
+  <div class="mt-3">
+    <b-card-group deck>
+      <b-card bg-variant="light" header="Light" class="text-center">
+        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+      </b-card>
+
+      <b-card bg-variant="dark" header="Dark" text-variant="white" class="text-center">
+        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+      </b-card>
+
+      <b-card header="Default" class="text-center">
+        <b-card-text>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</b-card-text>
+      </b-card>
+    </b-card-group>
+  </div>
+       
         </b-tab>
+
+
+
+
+
         <b-tab title="Second">
           <p>I'm the second tab</p>
         </b-tab>
-       
       </b-tabs>
     </div>
- 
- 
   </div>
 </template>
 

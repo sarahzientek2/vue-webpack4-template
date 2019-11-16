@@ -1,24 +1,36 @@
 <template>
-  <div
-    class="card"
-    style="width: 18rem;"
-  >
-    <ul class="list-group list-group-flush">
-      <li class="list-group-item">
-        THIS USER
-      </li>
-      <li class="list-group-item">
-        NAME:
-      </li>
-      <li class="list-group-item">
-        EMAIL:
+  <div class="full-width center-content">
+
+    <ul>
+      <li
+        v-if="users"
+      >
+        {{ users.name }}
       </li>
     </ul>
+
   </div>
 </template>
 
 <script>
-// read jSON
-// convert into java script obj
-// search js obj for password and email
+export default {
+  data: function () {
+    return {
+      user: undefined
+    }
+  },
+  created: function () {
+    fetch('https://api.myjson.com/bins/1awc9u')
+      .then(response => response.json())
+      .then(json => {
+        this.users = json.users
+      })
+  },
+  mounted: function () {
+    let v = sessionStorage.user
+    if (v !== 'undefined') {
+      this.users = JSON.parse(v)
+    }
+  }
+}
 </script>
