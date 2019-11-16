@@ -15,7 +15,7 @@
           href="#"
           variant="info"
         >
-          Accordion 1
+          Climbing
         </b-button>
       </b-card-header>
       <b-collapse
@@ -46,7 +46,7 @@
           href="#"
           variant="info"
         >
-          Accordion 2
+          Jumping
         </b-button>
       </b-card-header>
       <b-collapse
@@ -75,7 +75,7 @@
           href="#"
           variant="info"
         >
-          Accordion 3
+          Sliding
         </b-button>
       </b-card-header>
       <b-collapse
