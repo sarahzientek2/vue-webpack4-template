@@ -1,12 +1,7 @@
+
 <template>
-  <div class="full-width center-content">
-    <ul>
-      <li
-        v-if="users"
-      >
-        {{ users.name }}
-      </li>
-    </ul>
+  <div>
+    <h1>Welcome <span v-if="user">{{ user.name }}</span> to Chance's Website</h1>
   </div>
 </template>
 
@@ -18,7 +13,7 @@ export default {
     }
   },
   created: function () {
-    fetch('https://api.myjson.com/bins/1awc9u')
+    fetch('https://api.myjson.com/bins/ern2i')
       .then(response => response.json())
       .then(json => {
         this.users = json.users
@@ -27,7 +22,7 @@ export default {
   mounted: function () {
     let v = sessionStorage.user
     if (v !== 'undefined') {
-      this.users = JSON.parse(v)
+      this.user = JSON.parse(v)
     }
   }
 }
