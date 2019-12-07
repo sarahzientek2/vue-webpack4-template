@@ -20,7 +20,7 @@ export default {
     }
   },
   created: function () {
-    fetch('https://api.myjson.com/bins/ern2i')
+    fetch('https://3000-d574f568-160e-4286-8349-516aa6f780bc.ws-eu01.gitpod.io/api/users')
       .then(response => response.json())
       .then(json => {
         this.users = json.users
