@@ -2,8 +2,8 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from 'pages/Home'
+import Login from 'pages/Login'
 import About from 'pages/About'
-import LoginPage from 'pages/LoginPage'
 import Contact from 'pages/Contact'
 import specialtalents from 'pages/specialtalents'
 import photocollection from 'pages/photocollection'
@@ -17,12 +17,12 @@ const routes = [
     component: Home
   },
   {
-    path: '/about',
-    component: About
+    path: '/login',
+    component: Login
   },
   {
-    path: '/loginpage',
-    component: LoginPage
+    path: '/about',
+    component: About
   },
   {
     path: '/contact',

@@ -35,6 +35,12 @@
                   >
                     HOME
                   </b-link>
+                  <b-link
+                    to="/login"
+                    router-tag="b-nav-item"
+                  >
+                    LOGIN
+                  </b-link>
 
                   <b-link
                     to="/about"
