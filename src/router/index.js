@@ -42,6 +42,11 @@ const routes = [
   }
 ]
 
-export default new Router({
-  routes
-})
+const axiosConfig = {
+    baseURL: 'https://infinite-taiga-04283.herokuapp.com/'
+};
+Vue.prototype.$axios = axios.create(axiosConfig)
+new Vue({
+  router,
+  render: h => h(App)
+}).$mount('#app')
